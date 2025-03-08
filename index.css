@@ -1,7 +1,35 @@
+/* CSS Variables */
 :root{
     --Primary-fonts: "Happy Monkey", system-ui;
+    --Profile-photo: 150px;
+    --Profile-border-radius: 50%;
+    --Primary-color: #6bbabe;
+    --Secondary-color: #fcbf04;
 }
 
+/* General styling */
 body{
+    background-color: var(--Primary-color);
+    text-align: center;
     font-family: var(--Primary-fonts);
+}
+
+/* Container Section */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Profile photo */
+#profile__photo{
+    width: var(--Profile-photo);
+    border-radius: var(--Profile-border-radius);
+}
+
+/* Birthday Information */
+.birth__details{
+    background: var(--Secondary-color);
+    padding: 10px;
+    border-radius: 5px;
 }
