@@ -1,1 +1,1 @@
-Simple Bithday Landing Page
+Simple Birthday Landing Page
