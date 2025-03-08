@@ -1,0 +1,7 @@
+:root{
+    --Primary-fonts: "Happy Monkey", system-ui;
+}
+
+body{
+    font-family: var(--Primary-fonts);
+}
