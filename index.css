@@ -25,11 +25,52 @@ body{
 #profile__photo{
     width: var(--Profile-photo);
     border-radius: var(--Profile-border-radius);
+    border: 5px solid var(--Secondary-color);
 }
 
 /* Birthday Information */
-.birth__details{
+.birthday__age{
     background: var(--Secondary-color);
     padding: 10px;
     border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.birthday__year{
+    background: var(--Secondary-color);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+/* Gift Section */
+.gift-title{
+    margin: 30px 0 10px 0;
+}
+
+.gift-hint{
+    margin-top: 0;
+}
+
+.gift__image{
+    background-image: url(./assets/images/gift-box.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    height: 550px;
+    width: 550px;
+    border: 5px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.gift__image:hover{
+    background-image: url(./assets/images/Eagle\'s\ Profile\ Photo.jpg);
+}
+
+#gift__excited:hover{
+    background-image: url(./assets/images/alone.jpg);
+}
+
+#gift__glad:hover{
+    background-image: url(./assets/images/Eagle\'s\ Profile\ Photo.jpg);
 }
